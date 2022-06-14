@@ -46,7 +46,7 @@ for(let x = 0; x < banker.length; x++)
                 default:
                     console.log("Ship $100.00 Gift Card");
                     break;
-                case (empChecking >= 1):
+                case (empChecking >= 3):
                     console.log("Ship $400.00 Gift Card");
                     break;
             }
@@ -57,7 +57,7 @@ for(let x = 0; x < banker.length; x++)
                 default:
                     console.log("Ship $350.00 Gift Card");
                     break;
-                case (empChecking >= 1):
+                case (empChecking >= 2):
                     console.log("Ship $700.00 Gift Card");
                     break;
             }
