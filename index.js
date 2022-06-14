@@ -27,7 +27,7 @@ for(let x = 0; x < banker.length; x++)
     let empId = banker[x][0]; //employee Id number
     let empChecking = banker[x][1]; //number of new checking
     let empYears = banker[x][2]; //years employed
-    if(empYears <= 1)
+    /*if(empYears <= 1)
     {
         if(empChecking >=1)
         {
@@ -63,7 +63,8 @@ for(let x = 0; x < banker.length; x++)
         {
             console.log("Ship set of knives");
         }
-    }
+    }*/
+    
     // Output when activity is complete
     console.log(`${empId}: Processed`)
 }
