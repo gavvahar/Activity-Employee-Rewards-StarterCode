@@ -34,8 +34,25 @@ let empYears = seniorBanker[2];
 
 
 //<--Your code goes here-->
-
-
+if(empYears == 1)
+{
+    if(empChecking >= 1)
+    {
+        console.log("Ship $50.00 Gift Card")
+    }else
+    {
+        console.log("Incentives not met")
+    }
+}else if(empYears == 2)
+{
+    if(empChecking >=3)
+    {
+        console.log("Ship $50.00 Gift Card")
+    }else
+    {
+        console.log("Ship $100.00 Gift Card")
+    }
+}
 // Output when activity is complete
 console.log(`${empId}: Processed`)
 
