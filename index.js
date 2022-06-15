@@ -74,7 +74,6 @@ for(let x = 0; x < banker.length; x++)
             }
             break;
     }
-
     // Output when activity is complete
     console.log(`${empId}: Processed`)
 }
